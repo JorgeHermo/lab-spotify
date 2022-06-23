@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+
+
+        {{#each albumInfo}}
+        <div class="card" style="width: 18rem;">
+            <img src="{{images.[1].url}}" alt="" class="card-img-top" alt="band-image">
+            <div class="card-body">
+                <h5 class="card-title">{{name}}</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="/tracks/{{id}}" class="btn btn-primary">view traks</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
